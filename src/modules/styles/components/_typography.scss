@@ -1,0 +1,28 @@
+body, html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: map-get($colors, bg-grey );
+  }
+  
+  .text {
+    &-12 {
+      font-size: 12px;
+    }
+    &-15 {
+      font-size: 15px;
+    }
+    &-20 {
+      font-size: 20px;
+    }
+  }
+  
+  .text-black {   color: map-get($colors, text-black );}
+  .text-m-grey {  color: map-get($colors, text-m-grey );}
+  .text-red { color: red;}
+
+
+  .text-semibold {
+    font-weight: 600;
+  }

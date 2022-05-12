@@ -1,0 +1,45 @@
+input[type=text],input[type=password] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 13px 5px;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    border-radius: 8px;
+    resize: none;
+    height: 48px;
+    &:focus {
+        outline: none !important;
+        border-color: map-get($colors, primary-color ) ;
+      }
+}
+
+input[type=radio] {
+  cursor: pointer;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  padding: 5px;
+  
+  resize: none;
+}
+
+.editable-input {
+  input[disabled] {
+    border-radius: 0;
+    border: none;
+    padding: 5px 0;
+    height: 5px;
+    cursor: default;
+    background-color: transparent;
+  }
+  textarea[disabled] {
+    border: none;
+    padding: 10x;
+    cursor: default;
+    background-color: transparent;
+  }
+}

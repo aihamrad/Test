@@ -1,0 +1,20 @@
+$screen-lg: 992px;
+
+
+$colors: (
+ primary-color: #04AA6D,
+ white-color: #fff,
+ bg-grey: #EEF1F0,
+ text-black: #070707,
+ text-d-grey: #4E5452,
+ text-m-grey: #747B7B,
+ text-l-grey: #BBC3C2,
+);
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-grey {
+    background-color: map-get($colors, bg-grey )  
+}

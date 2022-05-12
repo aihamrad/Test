@@ -1,0 +1,15 @@
+.btn {
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    &-primary {
+        background-color: map-get( $colors, primary-color);  ;
+        color: #fff;
+    }
+}
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
